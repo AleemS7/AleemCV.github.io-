@@ -1,0 +1,213 @@
+body {
+  margin: 0;
+}
+
+a {
+  color: navy;
+  text-decoration: none;
+}
+
+a:hover {
+  color: purple;
+}
+
+.intro {
+  font-size: 50px;
+  font-family: 'Amatic SC', cursive;
+  background-color: aqua;
+  color: darkblue;
+  padding: 70px;
+  text-align: center;
+  position: relative;
+}
+
+.fire {
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  transform: translateY(-50%);
+  border: 5px solid gray;
+  border-radius: 10px;
+}
+.picofaleem{
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23)
+}
+.hunnet {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  border: 5px solid red;
+   border-radius: 10px;
+}
+
+.intro h2 {
+  font-size: 30px;
+  color: rgb(105, 34, 197);
+}
+
+.info {
+  font-family: 'Patrick Hand', cursive;
+  color: rgb(19, 17, 17);
+  background-color: aliceblue;
+  padding: 50px;
+  text-align: center;
+}
+
+.bottom {
+  background-color: aqua;
+  padding: 15px;
+  text-align: center;
+  border-top: 1px solid #cccccc;
+  margin-top: 20px;
+  color: green;
+}
+
+.button {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #0077ff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.button:hover {
+  background-color: #0055cc;
+  cursor: pointer;
+}
+
+hr {
+  border-top: 2px solid gray;
+  border-bottom: 2px solid black;
+}
+
+.languages-section {
+  overflow: auto;
+}
+
+.language-image-column {
+  float: left;
+  width: 40%;
+}
+
+.language-list-column {
+  float: right;
+  width: 60%;
+  right: 1em;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.language-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.language-list li {
+  margin: 10px 0;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.leadership-experience-section {
+  overflow: auto;
+}
+
+.image-column {
+  float: left;
+  width: 30%;
+}
+
+.list-column {
+  float: right;
+  width: 70%;
+  text-align: center;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.skills-section {
+  overflow: auto;
+}
+
+.image-column {
+  float: left;
+  width: 30%;
+}
+
+.list-column {
+  float: right;
+  width: 70%;
+}
+
+.clearfix {
+  clear: both;
+}
+
+dt {
+  float: left;
+  clear: left;
+}
+dd {
+  margin-left: 0.25em;
+}
+
+.allcontact {
+  width: 500px;
+  margin: 0 auto;
+  background-color: #f2f2f2;
+  box-shadow: 0px 0px 10px 0px #ccc;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-family: 'Amatic SC', cursive;
+}
+
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.form {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+input[type="text"], input[type="email"], textarea {
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #0077ff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+body{
+  background-color: aqua;
+}
+
+
+
